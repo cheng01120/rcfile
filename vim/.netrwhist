@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/zhang/git/monkeyvpn/3rdparty/AES123'
-let g:netrw_dirhist_2='/home/zhang/git/mojo/mammy_tree/lib/MammyTree'
-let g:netrw_dirhist_3='/home/zhang/git/mojo/mammy_tree/lib/MammyTree/Controller'
-let g:netrw_dirhist_4='/home/zhang/git/mojo/mammy_tree/lib/MammyTree'
-let g:netrw_dirhist_5='/home/zhang/git/mojo/mammy_tree/lib/MammyTree/Controller/Nurse.pm'
-let g:netrw_dirhist_6='/home/zhang/git/mojo/mammy_tree/lib/MammyTree'
