@@ -43,4 +43,9 @@ function SetVC64Env {
 	Invoke-Env "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" 
 }
 
+Set-Alias -Name 7z -Value "c:\Program files\7-zip\7z.exe"
+Set-Alias -Name which -Value "Get-Command"
 Set-Alias -Name vc64 -Value SetVC64Env
+
+Remove-Item Alias:rmdir 
+function rmdir { Remove-Item -Recurse $args }
